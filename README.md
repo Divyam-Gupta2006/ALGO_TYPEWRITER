@@ -25,4 +25,4 @@ qsort is silently replaced with an inline insertion sort, so if the correctness 
 Complexity inference only distinguishes O(n), O(n log n), and O(n²). It won't detect O(n log² n), O(n^1.5), or sub-linear algorithms.
 At n=100, quadratic algorithms do ~5000 operations. At the default 150ms delay that's 750 seconds of animation — you need to crank the speed down significantly for large arrays.
 The visualizer only works for in-place integer sorting. Algorithms that sort strings, structs, or produce a new array as output won't render correctly.
->>>>>>> e04c9e83f8c303aa3466f49fc2ca2f3d17e22a2e
+
